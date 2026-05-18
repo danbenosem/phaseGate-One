@@ -4,10 +4,10 @@ number=0;
 score=0;
 
 
-
+ randomNum= random.randint(1,100)
 while True:
-    randomNum= random.randint(1,100)
-    print(randomNum)
+   
+    
     user= int(input("guess the random number"))
 
     if user<randomNum:
