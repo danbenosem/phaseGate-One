@@ -4,7 +4,7 @@ number=0;
 score=0;
 
 
- randomNum= random.randint(1,100)
+randomNum= random.randint(1,100)
 while True:
    
     
