@@ -14,7 +14,7 @@ def negative_removed(array):
 
         if array[index]<0:
 
-            newArr.append("0");
+            newArr.append(0);
         else:
             newArr.append(array[index]);
 
