@@ -1,24 +1,19 @@
 array=["dan"]
-def (array):
+def like (array):
 
     
-for(let index=0; index<array.length; index++){
+    for index in range (len(arry)):
  
-  if(array[index]==("")){
+        if(array[index]==("")):
 
-        return "no one likes this";
-   }else {
+            return "no one likes this";
+        else :
 
-        return array[index] + " and likes this";
-    }
+            return array[index] + " and likes this";
+   
 
-}
 
- return "null";
 
-}
+    return "null";
 
-module.exports = { Like };
-
-console.log(Like(array));
 
