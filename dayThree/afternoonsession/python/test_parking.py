@@ -1,10 +1,10 @@
 import unittest
 from parkinglot import*
 
-class TestMultiply(unittest.TestCase):
+class Test(unittest.TestCase):
 
     def thatyoucantadd(self):
-         array =[1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0];
+         array =[1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0]
          expected = "slotnumber is occupied you can't add"
            
          self.assertEqual(expected,parkinglot(1,1,0,array))
