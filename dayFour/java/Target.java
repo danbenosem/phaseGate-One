@@ -4,18 +4,6 @@ public class Target{
     
 
 
-public static void main( String [] args ){
-
-int [] array1 = {9,5,1,9,4,5,1,7};
-
-
-for (int number:array1){
-
-    System.out.print(number);
-};
-
-}
-
 
 
 public static int [] array (int [] array, int number){

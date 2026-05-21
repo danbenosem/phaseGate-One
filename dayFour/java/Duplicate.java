@@ -28,14 +28,14 @@ int sum=0;
 ArrayList<Integer> items= new ArrayList<>(); 
 
     for(int index=0; index<array.length; index++){
-
+        
         for(int index2=index; index2<array.length; index2++){
-                
+                 int count= 0;
                 
                 if(array[index]==array[index2]){
-                        
+                        count++;
 
-                       if (array[index]!=items.get(index2)){
+                       if (count<2  ){
                         
             
                     items.add(array[index]);
